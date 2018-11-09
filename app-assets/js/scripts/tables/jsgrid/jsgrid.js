@@ -28,10 +28,13 @@ deleteConfirm: "Do you really want to delete the client?",
 controller: db,
 fields: [
     { name: "Name", type: "text", width: 150 },
-    { name: "Age", type: "number", width: 50 },
+    { name: "Date of Appointment", type: "text", width: 8 },
+	{ name: "Time From", type: "text", width: 8 },
+	{ name: "Time To", type: "text", width: 8 },
+	{ name: "Mobile", type: "text", width: 10 },
+	{ name: "Email", type: "text", width: 50 },
+    { name: "Remarks", type: "text", width: 100 },
     { name: "Address", type: "text", width: 200 },
-    { name: "Country", type: "select", items: db.countries, valueField: "Id", textField: "Name" },
-    { name: "Married", type: "checkbox", title: "Is Married", sorting: false },
     { type: "control" }
 ]
 });
@@ -124,11 +127,12 @@ $("#validation").jsGrid({
     controller: db,
     fields: [
         { name: "Name", type: "text", width: 150, validate: "required" },
-        { name: "Age", type: "number", width: 50, validate: { validator: "range", param: [18, 80] } },
-        { name: "Address", type: "text", width: 200, validate: { validator: "rangeLength", param: [10, 250] } },
-        { name: "Country", type: "select", items: db.countries, valueField: "Id", textField: "Name",
-            validate: { message: "Country should be specified", validator: function(value) { return value > 0; } } },
-        { name: "Married", type: "checkbox", title: "Is Married", sorting: false },
+        { name: "Date", type: "text", width: 150, validate: "required" },
+        { name: "Time From", type: "text", width: 100, validate: "required" },
+        { name: "Time To", type: "number", width: 100, validate: "required" },
+        { name: "Mobile", type: "text", width: 100, validate: "required" },
+        { name: "Email", type: "text", width: 200, validate: "required" },
+        { name: "Remarks", type: "text", width: 200, validate: "required" },
         { type: "control" }
     ]
 });

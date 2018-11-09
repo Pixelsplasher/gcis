@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin '_assert-ascending'.
-        on line 176 of C:\Users\primie\Documents\Unnamed Site 5\gcis\assets\scss\variables\variables.scss, in `_assert-ascending'
-        from line 176 of C:\Users\primie\Documents\Unnamed Site 5\gcis\assets\scss\variables\variables.scss
+        on line 176 of C:\Users\primie\Documents\Unnamed Site 5\assets\scss\variables\variables.scss, in `_assert-ascending'
+        from line 176 of C:\Users\primie\Documents\Unnamed Site 5\assets\scss\variables\variables.scss
 
 171:   md: 768px,
 172:   lg: 992px,
@@ -16,8 +16,8 @@ Error: Undefined mixin '_assert-ascending'.
 181: //
 
 Backtrace:
-C:\Users\primie\Documents\Unnamed Site 5\gcis\assets\scss\variables\variables.scss:176:in `_assert-ascending'
-C:\Users\primie\Documents\Unnamed Site 5\gcis\assets\scss\variables\variables.scss:176
+C:\Users\primie\Documents\Unnamed Site 5\assets\scss\variables\variables.scss:176:in `_assert-ascending'
+C:\Users\primie\Documents\Unnamed Site 5\assets\scss\variables\variables.scss:176
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
@@ -54,4 +54,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin '_assert-ascending'.\A         on line 176 of C:\Users\primie\Documents\Unnamed Site 5\gcis\assets\scss\variables\variables.scss, in `_assert-ascending'\A         from line 176 of C:\Users\primie\Documents\Unnamed Site 5\gcis\assets\scss\variables\variables.scss\A \A 171:   md: 768px,\A 172:   lg: 992px,\A 173:   xl: 1200px\A 174: );\A 175: \A 176: @include _assert-ascending($grid-breakpoints, \"$grid-breakpoints\");\A 177: @include _assert-starts-at-zero($grid-breakpoints);\A 178: \A 179: \A 180: // Grid containers\A 181: //"; }
+  content: "Error: Undefined mixin '_assert-ascending'.\A         on line 176 of C:\Users\primie\Documents\Unnamed Site 5\assets\scss\variables\variables.scss, in `_assert-ascending'\A         from line 176 of C:\Users\primie\Documents\Unnamed Site 5\assets\scss\variables\variables.scss\A \A 171:   md: 768px,\A 172:   lg: 992px,\A 173:   xl: 1200px\A 174: );\A 175: \A 176: @include _assert-ascending($grid-breakpoints, \"$grid-breakpoints\");\A 177: @include _assert-starts-at-zero($grid-breakpoints);\A 178: \A 179: \A 180: // Grid containers\A 181: //"; }
